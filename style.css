@@ -1,0 +1,131 @@
+
+/* ESTILO GERAL*/
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}      
+.btn-ouvir button{
+    padding: 10px 30px;
+    font-size: 16px; font-weight: 400; font-style:oblique; background-color: rgb(140, 172, 77); border: 0; border-radius: 30px;
+    cursor: pointer; transition: .2s; align-items: center;
+    } 
+body{
+    background-color: darkgrey;
+    height: 100vh; border-radius: 40px;
+}
+.interface{
+    max-width: 1280px; margin: 0 auto;
+}
+html{ scroll-behavior: smooth;
+}
+
+/* ESTILO DO CABEÇALHO */
+
+header{ padding: 40px 4% 
+}
+header > .interface{
+    display: flex; align-items: center; justify-content: space-between;
+}
+header a{ color: rgb(87, 87, 87);
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+header a:hover{
+    color: white; transform: scale(1.09); 
+}
+header nav ul{
+    list-style-type: none;
+}
+header nav ul li{
+    display: inline-block;
+    padding: 0 40px;
+}
+
+/* ESTILO TOPO DO SITE */
+ section.topo-do-site{
+    background-image: url(assets/adelebackground.jpg); background-size: cover; background-repeat: no-repeat; background-position:center ;
+    padding: 40px 4%;
+ }
+.flex{
+    display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 60px;
+}
+.txt-topo-do-site {
+    flex: 0 0 60%;
+     min: width 300px;
+}
+.img-topo-do-site{
+    flex: 0 0 40%; min-width: 250px; display: flex; flex-direction: column; align-items: flex-end; justify-content: right; text-align: left; gap: 20px;
+}
+
+.img-topo-do-site img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 10px;
+}
+h1 {
+    font-size: 44px; line-height: 1.6; font-weight: bold; color: black; font-family: 'Share Tech', sans-serif; margin-bottom: 20px;
+}
+/* ESTILO PARA O PARAGRAFO */
+
+p{
+    font-size: 20px;
+  line-height: 1.6;
+  color: black;
+  max-width: 700px;
+}
+/* ESTILO DAS IMAGENS */
+.txt-topo-do-site p {
+    font-size: 20px;
+    line-height: 1.3;
+  }
+.galeria {
+    padding: 60px 20px;
+    background-color: white;
+    text-align: center;
+  }
+  
+  .galeria h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+    font-family: 'Share Tech', sans-serif;
+  }
+  
+  .grid-imagens {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+  }
+  
+  .grid-imagens img {
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  .grid-imagens img:hover {
+    transform: scale(1.05);
+  }
+  /* COMEÇO DAS SEÇÕES */
+  section{
+    height: 100vh; padding: 40px; box-sizing: border-box;
+  }
+  .sec1{ background-color: white;}
+  /* DISCOGRAFIA */
+   .discografia {padding: 60px 20px; background-color: white; text-align: center;
+}
+.discografia h2{font-size: 28px; margin-bottom: 30px; font-family: 'Share Tech',sans-serif;
+}
+.grid-albuns{ display: grid; grid-template-columns: repeat(auto-fit,minmax(180px, 1fr)); gap: 30px;
+}
+.album{background-color: white; border-radius: 10px; padding: 15px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+.album img{width: 100%; border-radius: 8px;
+}
+.album h3{ margin-top: 12px; font-size: 16px; font-weight: 500; font-family: Arial, Helvetica, sans-serif; line-height: 1.4;height: 48px;
+ display: flex; align-items: center; justify-content: center; text-align: center; color: #333;}
+ 
+ .adele-frase {
+  font-size: 50px; color: white; margin-top: 40px; font-style: italic; text-align: center;
+}
